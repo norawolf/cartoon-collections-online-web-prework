@@ -19,5 +19,6 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   array.find { |food| cheese_types.include?(food) }
-
+  #find returns the first item for which a condition is true
+  #include? searches through cheese_types to see if any of the foods from array match a type of cheese
 end
